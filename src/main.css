@@ -1,0 +1,17 @@
+html,
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+
+.fade-in {
+    opacity: 1;
+    max-height: 300px;
+}
+
+.fade-out {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+}
